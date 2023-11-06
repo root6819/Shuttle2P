@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: ShellCheck Support Scripts
+      - name: ShellCheck Support Scripts x
         uses: reviewdog/action-shellcheck@v1.15
         with:
           reporter: github-pr-review
